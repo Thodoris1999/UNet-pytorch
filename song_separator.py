@@ -93,6 +93,7 @@ def main(args):
         print(vocal_wav.size())
         accomp_wav = torch.zeros([2, wav_size])
         for i in range(frame_count):
+            print(f"frame: {i}/{frame_count}")
             frame_start = i*T
             frame_end = (i+1) * T
             mix_frame = mix_padded[:, :, :, frame_start:frame_end]

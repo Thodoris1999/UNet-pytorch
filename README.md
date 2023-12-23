@@ -11,10 +11,10 @@ python3 -m venv env
 pip install -r requirements.txt
 ```
 ### Training
-`python train.py -v voc_weights.pt -a accompaniment_weights.py`
+`python train.py -v voc_weights.pt -a accompaniment_weights.pt`
 ### Testing
-`python separate_musdb.py -v voc_weights.pt -a accompaniment_weights.py`
+`python separate_musdb.py -v voc_weights.pt -a accompaniment_weights.pt`
 ### Separating songs
-`python song_separator.py -v voc_weights.pt -a accompaniment_weights.py -i song.mp3`
+`python song_separator.py -v voc_weights.pt -a accompaniment_weights.pt -i song.mp3`
 
 Use the `-h` flag for more information on the command line arguments
